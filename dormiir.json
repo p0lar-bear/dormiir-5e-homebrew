@@ -1,0 +1,289 @@
+{
+    "$schema": "https://raw.githubusercontent.com/TheGiddyLimit/5etools-utils/master/schema/brew/homebrew.json",
+    "_meta": {
+        "sources": [
+            {
+                "json": "TashBrewDormiir",
+                "full": "Dormiir",
+                "abbreviation": "Dormiir",
+                "color": "990000",
+                "authors": [
+                    "Tasha the Chimera"
+                ],
+                "convertedBy": [
+                    "Polar Bear"
+                ],
+                "dateReleased": "2026-11-11",
+                "version": "1.0"
+            }
+        ],
+        "edition": "one",
+        "status": "wip",
+        "dateAdded": 0,
+        "dateLastModified": 0
+    },
+    "subclass": [
+        {
+            "name": "Warrior of History",
+            "source": "TashBrewDormiir",
+            "className": "Monk",
+            "classSource": "PHB",
+            "shortName": "History",
+            "subclassFeatures": [
+                "Warrior of History|Monk||History|TashBrewDormiir|3"
+            ]
+        },
+        {
+            "name": "Warrior of the Earthscar",
+            "source": "TashBrewDormiir",
+            "className": "Monk",
+            "classSource": "PHB",
+            "shortName": "Earthscar",
+            "subclassFeatures": [
+                "Warrior of the Earthscar|Monk||Earthscar|TashBrewDormiir|3"
+            ]
+        },
+        {
+            "name": "Oath of the Ordered",
+            "source": "TashBrewDormiir",
+            "className": "Paladin",
+            "classSource": "PHB",
+            "shortName": "Ordered",
+            "subclassFeatures": [
+                "Oath of the Ordered|Paladin||Ordered|TashBrewDormiir|3"
+            ]
+        }
+    ],
+    "subclassFeature": [
+        {
+            "name": "Warrior of History",
+            "source": "TashBrewDormiir",
+            "className": "Monk",
+            "classSource": "PHB",
+            "subclassShortName": "History",
+            "subclassSource": "TashBrewDormiir",
+            "level": 3,
+            "entries": [
+                "Codices, treatises, receipts, and notes in the margin. History does not stay dead with you, and yours is the lot of someone who must defend truth at all costs. Illuminating the darkest reachest and bringing everything to light is what this order is most about.",
+				{
+					"type": "refSubclassFeature",
+					"subclassFeature": "Rhythm and Cadence|Monk||History|TashBrewDormiir|3"
+				},
+				{
+					"type": "refSubclassFeature",
+					"subclassFeature": "Closing Distance|Monk||History|TashBrewDormiir|3"
+				}
+            ]
+        },
+        {
+            "name": "Rhythm and Cadence",
+            "source": "TashBrewDormiir",
+            "className": "Monk",
+            "classSource": "PHB",
+            "subclassShortName": "History",
+            "subclassSource": "TashBrewDormiir",
+            "level": 3,
+			"header": 1,
+            "entries": [
+				"{@i 3rd-level Warrior of History feature}",
+                "At 3rd level, you've mastered the art of finding the flow in combat. Warriors of Light have long drawn on the prose and patter of orated stories, poetry, and music to inspire their protection of those very materials. The old masters broke this down into two parts: rhythm and cadence. While in combat, whenever you succeed at a {{@variantrule D20 Test|XPHB}, you gain a point of Rhythm. You can only gain one point of Rhythm during a turn in combat.",
+                "You may spend these points on Cadence, which allows you to perform addition actions in combat. The Cadences you know are below, with more learned at higher levels. Your Rhythm cannot exceed your Monk level.",
+                {
+                    "type": "list",
+					"style": "list-hang-notitle",
+                    "items": [
+                        "{@b 3 Points:} You may take one additional {@variantrule Bonus Action|XPHB} this turn, but that action must be to make an {@variantrule Unarmed Strike|XPHB} or to {@action Activate an Item}."
+                    ]
+                },
+                "At 5th level:",
+                {
+                    "type": "list",
+					"style": "list-hang-notitle",
+                    "items": [
+                        "{@b 5 Points:} You may take one additional {@variantrule Bonus Action|XPHB} this turn, but that action must be to make an {@action Attack}."
+                    ]
+                },
+                "At 7th level:",
+                {
+                    "type": "list",
+					"style": "list-hang-notitle",
+                    "items": [
+                        "{@b 7 Points:} Make an {@action Attack} against a target you have already attacked in the past 6 seconds; this attack automatically hits, but cannot gain benefits from critical hits."
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "Closing Distance",
+            "source": "TashBrewDormiir",
+            "className": "Monk",
+            "classSource": "PHB",
+            "subclassShortName": "History",
+            "subclassSource": "TashBrewDormiir",
+            "level": 3,
+			"header": 1,
+            "entries": [
+				"{@i 3rd-level Warrior of History feature}",
+                "You can use thrown weapons as monk weapons, if they fit the existing requirements. When you successfully hit with an attack for the first time on your turn, you may spend 1 Focus Point to attempt to unbalance the target. They must make a Strength or Dexterity saving throw (their choice) against your monk save DC or be Stunned. The condition ends the next time they take damage or at the end of your turn, whichever happens first."
+            ]
+        },
+        {
+            "name": "Warrior of the Earthscar",
+            "source": "TashBrewDormiir",
+            "className": "Monk",
+            "classSource": "PHB",
+            "subclassShortName": "Earthscar",
+            "subclassSource": "TashBrewDormiir",
+            "level": 3,
+            "entries": [
+                "The ancient mountains know of things forgotten by all mortals, but those whispers and sighs are kept safe within this order. Forbidden arts are passed down to keep this knowledge alive, and to protect it. Many within this order even believe that the time of dragons might someday return...",
+				{
+					"type": "refSubclassFeature",
+					"subclassFeature": "Brutality, Perfected|Monk||Earthscar|TashBrewDormiir|3"
+				},
+				{
+					"type": "refSubclassFeature",
+					"subclassFeature": "Seething Vengeance|Monk||Earthscar|TashBrewDormiir|3"
+				}
+            ]
+        },
+        {
+            "name": "Brutality, Perfected",
+            "source": "TashBrewDormiir",
+            "className": "Monk",
+            "classSource": "PHB",
+            "subclassShortName": "Earthscar",
+            "subclassSource": "TashBrewDormiir",
+            "level": 3,
+			"header": 1,
+            "entries": [
+				"{@i 3rd-level Warrior of the Earthscar feature}",
+                "At 3rd level, you have become proficient in the old arts, able to call upon a power that has seeped into the world itself. As a Bonus Action, you spend a Focus Point put yourself in the Earthscare fighting stance while not in Heavy Armor. For the next minute:",
+                {
+                    "type": "list",
+                    "items": [
+                        "You have resistance to non-magical damage",
+                        "You add your Strength modifier to your damage rolls made with unarmed attacks or monk weapons; this damage is in addition to the Strength or Dexterity used in the attack.",
+                        "If you become {@status Bloodied}, you regain a Focus Point and may use your {@variantrule Reaction|XPHB} to immediately attack the creature that damaged you, if they are in your range."
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "Seething Vengeance",
+            "source": "TashBrewDormiir",
+            "className": "Monk",
+            "classSource": "PHB",
+            "subclassShortName": "Earthscar",
+            "subclassSource": "TashBrewDormiir",
+            "level": 3,
+			"header": 1,
+            "entries": [
+				"{@i 3rd-level Warrior of the Earthscar feature}",
+                "You hold in your heart a hatred, learned from the history of your order, raging against the injustices done to dragonkind. Once per turn when you spend a Focus Point to attack or deal damage to an enemy, you can add {@dice 1d6} damage of acid, cold, fire, lightning, or poison to the damage. You may use this feature a number of times equal to your Monk level per short rest."
+            ]
+        },
+        {
+            "name": "Oath of the Ordered",
+            "source": "TashBrewDormiir",
+            "className": "Paladin",
+            "classSource": "PHB",
+            "subclassShortName": "Ordered",
+            "subclassSource": "TashBrewDormiir",
+            "level": 3,
+            "entries": [
+                "Those who flow to the Ordered Knights are those willing to lay down everything for the protection of the natural world. Drawing upon the raw forces of the Elemental Planes, these noble warriors adorn weapons, armor, and their own bodies in the true script of the elements of fire, earth, metal, water, and air. The Lex Profundus are the true source of all magic, and there is a reckoning for those who forget this.",
+				{
+					"type": "refSubclassFeature",
+					"subclassFeature": "The Old Ways|Paladin||Ordered|TashBrewDormiir|3"
+				},
+				{
+					"type": "refSubclassFeature",
+					"subclassFeature": "Pillar of Strength|Paladin||Ordered|TashBrewDormiir|3"
+				}
+            ]
+        },
+        {
+            "name": "The Old Ways",
+            "source": "TashBrewDormiir",
+            "className": "Paladin",
+            "classSource": "PHB",
+            "subclassShortName": "Ordered",
+            "subclassSource": "TashBrewDormiir",
+            "level": 3,
+			"header": 1,
+            "consumes": [
+                "Runic Mark"
+            ],
+            "entries": [
+				"{@i 3rd-level Oath of the Ordered feature}",
+                "At 3rd level, you have learned to etch runes into your equipment, conveying on them the properties of those elements. You may have a number of Marks in use equal to half your Paladin level, rounded up. When scribing a new Mark, the oldest one before it fades and loses its connection to the Elemental Planes.",
+                "You scribe a Mark or reactivate an existing Mark over the course of a minute, taking the time to precisely place the rune on the surface of a metal blade, a piece of leather armor, or the wood of a shield, as examples. One single object may carry multiple runes, but only one Mark may be active at time on any single object. An active Mark on a piece of equipment grants its wielder a bonus while it's equipped.",
+                "The basic runes and granted bonuses are as follows:",
+                {
+                    "type": "table",
+                    "caption": "Marks",
+                    "colLabels": [
+                        "Rune",
+                        "Meaning",
+                        "on weapon",
+                        "on armor"
+                    ],
+                    "colStyles": [
+                        "col-2 text-center",
+                        "col-3",
+                        "col-3",
+                        "col-4"
+                    ],
+                    "rows": [
+                        [
+                            "ᛊ",
+                            "Ig; fire, heat, consumption",
+                            "+{@d 1d4} fire damage",
+                            "resistance to fire damage"
+                        ],
+                        [
+                            "ᛒ",
+                            "Aer; wind, sky, growth",
+                            "+{@d 1d4} lightning",
+                            "advantage against being knocked prone"
+                        ],
+                        [
+                            "ᛚ",
+                            "Ter; water, flow, change",
+                            "+{@d 1d4} cold",
+                            "resistance to magical damage once per round"
+                        ],
+                        [
+                            "ᛃ",
+                            "Ur; earth, soil, composure",
+                            "+{@d 1d4} thunder",
+                            "advantage on Int/Wis/Cha save once per round"
+                        ],
+                        [
+                            "ᚷ",
+                            "Tuum; metal, alloys, defiance",
+                            "+{@d 1d4} marked weapon damage",
+                            "+1 AC"
+                        ]
+                    ]
+                },
+                "Weapons imbued with your runes count as magical for overcoming resistances. Your runes are magically active and appear to those who can see the arcane, such as with {@sense truesight} or {@spell detect magic}."
+            ]
+        },
+        {
+            "name": "Pillar of Strength",
+            "source": "TashBrewDormiir",
+            "className": "Paladin",
+            "classSource": "PHB",
+            "subclassShortName": "Ordered",
+            "subclassSource": "TashBrewDormiir",
+            "level": 3,
+			"header": 1,
+            "entries": [
+				"{@i 3rd-level Oath of the Ordered feature}",
+                "At 3rd level, you've learned how to defend yourself and allies with access to the pure arcane. When you or an ally you can see within 30 feet is hit by an attack, you may expend one of your Marks to subtract {@dice 1d10} from the roll, potentially causing the attack to miss. The chosen Mark becomes inert, and must be rebound."
+            ]
+        }
+    ]
+}
