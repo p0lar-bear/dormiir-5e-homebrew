@@ -239,31 +239,31 @@
                         [
                             "ᛊ",
                             "Ig; fire, heat, consumption",
-                            "+{@d 1d4} fire damage",
+                            "+{@dice 1d4} fire damage",
                             "resistance to fire damage"
                         ],
                         [
                             "ᛒ",
                             "Aer; wind, sky, growth",
-                            "+{@d 1d4} lightning",
+                            "+{@dice 1d4} lightning",
                             "advantage against being knocked prone"
                         ],
                         [
                             "ᛚ",
                             "Ter; water, flow, change",
-                            "+{@d 1d4} cold",
+                            "+{@dice 1d4} cold",
                             "resistance to magical damage once per round"
                         ],
                         [
                             "ᛃ",
                             "Ur; earth, soil, composure",
-                            "+{@d 1d4} thunder",
+                            "+{@dice 1d4} thunder",
                             "advantage on Int/Wis/Cha save once per round"
                         ],
                         [
                             "ᚷ",
                             "Tuum; metal, alloys, defiance",
-                            "+{@d 1d4} marked weapon damage",
+                            "+{@dice 1d4} marked weapon damage",
                             "+1 AC"
                         ]
                     ]
